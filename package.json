@@ -1,0 +1,46 @@
+{
+  "name": "sqlmagic",
+  "version": "0.0.1",
+  "description": "Flexible data mapper ORM for io.js and node 0.12",
+  "main": "lib/sqlmagic.js",
+  "scripts": {
+    "test": "mocha --require co-mocha test/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielstjules/sqlmagic.git"
+  },
+  "keywords": [
+    "orm",
+    "sql",
+    "data",
+    "mapper",
+    "postgres",
+    "mysql",
+    "sqlite",
+    "query",
+    "db",
+    "database"
+  ],
+  "author": "Daniel St. Jules <danielst.jules@gmail.com> (http://danielstjules.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielstjules/sqlmagic/issues"
+  },
+  "homepage": "https://github.com/danielstjules/sqlmagic",
+  "dependencies": {
+    "async-class": "^0.2.0",
+    "bluebird": "^2.10.0",
+    "generic-pool": "^2.2.0",
+    "lodash": "^3.7.0",
+    "sql": "^0.60.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "co-mocha": "^1.1.0",
+    "mocha": "^2.2.4",
+    "mysql2": "^0.15.8",
+    "pg": "^4.4.1",
+    "sqlite3": "^3.0.5"
+  }
+}
