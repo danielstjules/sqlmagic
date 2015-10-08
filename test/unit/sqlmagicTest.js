@@ -9,4 +9,9 @@ describe('initialization', function() {
       sqlmagic({dialect: 'mongodb'});
     }).to.throw(Error);
   });
+  it('finds correctly-specified dialect', function () {
+    expect(function() {
+      sqlmagic({dialect: 'mysql2'});
+    }).to.not.throw(Error);
+  });
 });
