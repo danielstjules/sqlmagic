@@ -1,6 +1,6 @@
 {
   "name": "sqlmagic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Flexible data mapper ORM for io.js and node 0.12",
   "main": "lib/sqlmagic.js",
   "scripts": {
